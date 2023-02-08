@@ -1,0 +1,233 @@
+body { overflow-x: hidden; }
+
+#signIn, #signUp{
+  height: 40px;
+  width: 80px;
+}
+
+#signIn {
+  border: 1px solid black;
+}
+
+#signIn:hover {
+  color: white;
+}
+
+#signUp:hover {
+  color: white;
+}
+
+#section1 h1{ 
+  font-size: 50px;
+  margin-right: 50px;
+}
+
+#section1 img{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#section1 p{ 
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  margin: 20px 0 30px 0px;
+  color: #64748b
+}
+
+#section1 a ,#section2 a, #section3 a, #section4 a{
+  color: inherit;
+  text-decoration: none;
+}
+
+#section1 a:hover ,#section2 a:hover, #section3 a:hover, #section4 a:hover {
+  color: #754ffe;
+}
+
+#medalhaIcon {
+color: #0dcaf0;
+font-size: 40px;
+padding: 15px;
+}
+
+#pessoasIcon{
+color: #f59e0b;
+font-size: 40px;
+padding: 15px;
+}
+
+#tvIcon {
+color: #754ffe;
+font-size: 40px;
+padding: 15px;
+}
+
+#videoIcon {
+color: #38a169;
+font-size: 40px;
+padding: 15px;
+}
+
+#section3 i{
+color: #754ffe;
+margin-right: 10px;
+}
+
+#section3 p {
+  color: #64748b;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#section3 h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#section3 .mb-0{
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 60px;
+  
+}
+
+#section4 {
+  display: flex;
+  background-color: #754ffe;
+  height: 375px;
+  margin-top: 100px;
+}
+
+
+
+#joinBtn{
+  border: none;
+  background-color: #754ffe ;
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px;
+  white-space: nowrap;
+}
+
+#joinBtn:hover{
+  background-color: #6343d8;
+}
+
+
+/*Carrousel */
+
+#myCarousel {
+  padding: 0px 0px 100px 0px;
+  background-color: #e2e8f0;
+  }
+
+#section5 {
+  margin: 105px 0px 70px 0px;
+  background-color: #e2e8f0;
+}
+
+.carousel-inner img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+#reviews {
+    padding: 50px 350px;
+    margin-left: 50px;
+  }
+
+#reviews h2 {
+text-align: left;
+display: inline-block;
+width: calc(100% - 130px);
+font-weight: bold;
+}
+
+#reviews p {
+text-align: left;
+width: 43%;
+margin-top: 0px;
+color: #64748b;
+}
+
+#reviewsBtn {
+display: inline-block;
+float: right;
+margin-top: 0px;
+margin-right: 50px;
+background-color: #754ffe;
+color: white;
+border: none;
+border-radius: 8%;
+height: 40px;
+width: 130px;
+font-weight: bold;
+}
+
+#reviewsBtn:hover{
+  background-color: #5e3fcb;
+}
+
+#leftControl{
+  font-size: 50px;
+  text-align: center;
+  top: 22vh;
+  bottom: 0;
+  width: 15%;
+  position: absolute;
+  color: rgb(196, 196, 196);
+}
+
+#rightControl{
+  font-size: 50px;
+  text-align: center;
+  top: 22vh;
+  right: 0;
+  width: 15%;
+  position: absolute;
+  color: rgb(196, 196, 196);
+}
+
+/*footer*/
+footer h5 {
+  font-size: 20px;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
+
+footer a , li, span{
+  color: #64748b !important;
+  text-decoration: none !important;
+  margin: 10px 0px;
+}
+
+footer a:hover {
+  color: #6f42c1 !important;
+}
+
+#email {
+  color: #754ffe !important;
+}
+
+#footerCompany{
+  padding-left: 200px;
+}
+
+#footerSupport{
+  padding-left: 100px;
+}
+
+#footerP{
+  text-align: left;
+  width: 140%;
+}
+
+#phone{
+  font-weight: bold;
+  color: black !important;
+}
